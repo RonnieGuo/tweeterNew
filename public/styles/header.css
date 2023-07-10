@@ -1,0 +1,31 @@
+header {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
+  background-color: #ebb25d;
+  background-image: url(/images/header-bg.png);
+  background-repeat: repeat;
+}
+
+header div {
+  margin-bottom: 10px;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: -20px;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 0;
+}
