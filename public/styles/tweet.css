@@ -20,7 +20,7 @@
 }
 
 
-.tweet .tweet-content {
+.tweet .tweet-text {
   margin: 1em;
 }
 
@@ -34,12 +34,12 @@ hr.solid {
   align-items: center;
 }
 
-.tweet footer .timestamp {
+.tweet footer .tweet-time {
   color: #999999;
   font-size: small;
 }
 
-.tweet footer .actions i {
+.tweet footer .tweet-icons {
   margin-right: 0.5em;
   color: #999999;
   cursor: pointer;
@@ -50,6 +50,6 @@ hr.solid {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.tweet:hover footer .actions i {
+.tweet:hover footer .tweet-icons {
   color: #4056A1;
 }
