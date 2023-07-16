@@ -57,7 +57,7 @@
     <main class="container">
       
       <section class="new-tweet">
-        <h2>Compose Tweet</h2>
+        <div class="error-message" style="display: none;"></div>
         <form action="/tweets" method="POST">
           <label for="tweet-text">What are you humming about?</label>
           <textarea name="text" id="tweet-text"></textarea>
@@ -68,31 +68,9 @@
         </form>
       </section>
 
-      <section id="tweet-container">
-       <!-- <article class="tweet">
-          <div class="user">
-            <img class="avatar" src="/images/profile-hex.png" alt="User Avatar">
-            <span class="user-name">Newton</span>
-          </div>
-          <div class="tweet-content">
-            <p>Hello world!</p>
-          </div>
-          <hr class="solid">
-          <footer>
-            <span class="timestamp">10 days ago</span>
-            <div class="actions">
-          <i class="fa-solid fa-flag"></i>
-          <i class="fa-solid fa-retweet"></i>
-          <i class="fa-solid fa-heart"></i>
-            </div>
-          </footer>
-        </article>  -->
-        
-        
-      </section>
+      <section id="tweet-container"></section>
+
     </main>
-
-
     <script src="/scripts/composer-char-counter.js"></script>
 
   </body>
