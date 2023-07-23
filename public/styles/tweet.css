@@ -1,4 +1,7 @@
 .tweet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 93.6%;
   margin: 0 auto;
   border: 3px solid #000000;

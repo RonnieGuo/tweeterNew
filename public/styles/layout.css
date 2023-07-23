@@ -33,3 +33,40 @@ body {
   flex-direction: column;
  
 }
+/* Media Queries for Desktop-sized Screens (1024px and above) */
+@media screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70%;
+    margin-left: 1em;
+  }
+  
+  main {
+    margin-top: 120px;
+    width: 90%;
+    background-color: #f4f1ec;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Media Queries for Small Screens (Less than 768px) */
+@media screen and (max-width: 767px) {
+  body {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-basis: 100%;
+    position: static;
+    height: auto;
+    padding: 1.5em;
+  }
+
+  .new-tweet,
+  #tweet-container {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+}
