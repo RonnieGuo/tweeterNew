@@ -2,7 +2,7 @@
 
 This repository is built upon the lighthouse lab tweeter template to practice HTML, CSS, JS, jQuery and AJAX front-end skills, and Node, Express back-end skills.
 
-## Screes=shots
+## Screenshots
 !["Screenshot of URLs page"](https://github.com/RonnieGuo/tweeterNew/blob/master/docs/main.png)
 !["Screenshot of new URL page"](https://github.com/RonnieGuo/tweeterNew/blob/master/docs/small.png)
 ## Getting Started
