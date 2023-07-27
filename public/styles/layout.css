@@ -35,11 +35,14 @@ body {
 }
 /* Media Queries for Desktop-sized Screens (1024px and above) */
 @media screen and (min-width: 1024px) {
+  header {
+    width: 40%;
+    margin: 10%;
+  }
   body {
     display: flex;
     flex-direction: row;
     flex-basis: 70%;
-    margin-left: 1em;
   }
   
   main {

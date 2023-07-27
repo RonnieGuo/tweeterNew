@@ -11,6 +11,7 @@ $(document).ready(function() {
         <div class="user">
           <img src="${tweet.user.avatars}" alt="User Avatar">
           <span class="user-name">${tweet.user.name}</span>
+       
           <span class="user-handle">${tweet.user.handle}</span>
         </div>
         <p class="tweet-text">${$("<div>").text(tweet.content.text).html()}</p>
